@@ -1,5 +1,6 @@
 body{
   padding: 5px 25px;
+  background-image: url(../img/hatter.png);
 }
 
 p{
@@ -15,7 +16,7 @@ ol li{
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
   column-count: 3;
-  line-height: 120%;
+  line-height: 200%;
 }
 
 h1, h2{
@@ -31,6 +32,7 @@ h1, h2{
 
 a{
   text-decoration: none;
+  color: #7F7F7F;
 }
 
 img{
@@ -46,9 +48,11 @@ img{
 }
 
 .fk{
-  font-weight: normal;
+  font-weight: italic;
 }
 
 #teljes{
   float:right;
+  width: 280px;
+  margin-left: 20px;
 }
