@@ -15,10 +15,45 @@ table{
 
 }
 
-#harmasikSor{
+#harmadiksor{
     background-color: white;
 }
 
 #fejlec{
     border: 1px solid;
+}
+
+.dolt{
+    font-style: italic;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+
+#szovegKozepre{
+    text-align: center;
+}
+
+.kepKozepre{
+    border: none;
+    margin: 0 auto;
+    display: block;
+}
+
+h1{
+    margin-top: 0px;
+}
+
+/*
+ul{
+    margin-bottom: 0px;
+}
+*/
+
+#vedelmi{
+    margin-bottom: 0px;
+}
+
+p{
+    text-align: justify;
 }
