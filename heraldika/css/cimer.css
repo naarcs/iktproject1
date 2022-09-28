@@ -48,11 +48,15 @@ img{
 }
 
 .fk{
-  font-weight: italic;
+  font-weight: normal;
 }
 
 #teljes{
   float:right;
   width: 280px;
   margin-left: 20px;
+}
+
+span{
+  font-weight: bold;
 }
