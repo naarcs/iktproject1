@@ -3,6 +3,22 @@ body{
     color: #192C32;
 }
 
-a{
-    
+a:link,a:visited,a:hover,a:active{
+    color: #FF6F00;
+}
+
+table{
+    width: 1006px;
+    margin: 0 auto;
+    border: none;
+    padding: 3px;
+
+}
+
+#harmasikSor{
+    background-color: white;
+}
+
+#fejlec{
+    border: 1px solid;
 }
