@@ -5,3 +5,47 @@
 .szurke{
     background-color:#808080;
 }
+
+body{
+    background-color: #ced5e0;
+}
+
+a:link,a:visited,a:hover,a:active{
+    color: #FF6F00;
+}
+
+#table2{
+    width: 800px;
+    margin: 0 auto;
+    border: none;
+    background-color: white;
+    text-align: center;
+    padding: 2px;
+    border-spacing: 1px;
+}
+
+h1{
+    text-align: center;
+}
+
+.kepKozepre{
+    border: none;
+    margin: 0 auto;
+    display: block;
+    padding-left: 15px;
+}
+
+#table1{
+    margin: 0 auto;
+    background-color: #ced5e0;
+    border: 0px;
+}
+
+hr{
+    margin: 0 auto;
+    width: 400px;
+    align: center;
+    size: 5px;
+    color: black;
+
+}
