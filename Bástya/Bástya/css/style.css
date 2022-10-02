@@ -1,9 +1,13 @@
 .feher{
     background-color: #ffffff;
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 .szurke{
     background-color:#808080;
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 body{
@@ -16,36 +20,41 @@ a:link,a:visited,a:hover,a:active{
 
 #table2{
     width: 800px;
-    margin: 0 auto;
-    border: none;
+    margin: 20px auto;
     background-color: white;
     text-align: center;
     padding: 2px;
-    border-spacing: 1px;
+    border-spacing: 0px;
 }
 
 h1{
     text-align: center;
 }
 
-.kepKozepre{
+#kepKozepre{
     border: none;
     margin: 0 auto;
     display: block;
     padding-left: 15px;
+    padding-bottom: 20px;
 }
 
 #table1{
     margin: 0 auto;
     background-color: #ced5e0;
-    border: 0px;
 }
 
 hr{
     margin: 0 auto;
     width: 400px;
-    align: center;
     size: 5px;
     color: black;
+}
 
+#szovegKozepre{
+    text-align: center;
+}
+
+#valasz{
+    float: right;
 }
