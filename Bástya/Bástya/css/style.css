@@ -58,3 +58,11 @@ hr{
 #valasz{
     float: right;
 }
+
+p {
+    display: block;
+    margin-block-start: 2;
+    margin-block-end: 1em;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
+}
