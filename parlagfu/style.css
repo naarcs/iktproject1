@@ -24,3 +24,13 @@ a:active , a:hover , a:visited , a:link {
     height: 40px;
     color: white;
 }
+
+span{
+    font-weight: bold;
+}
+
+#belsoKep{
+    float: right;
+    margin: 0 5px;
+    border: 1px solid;
+}
