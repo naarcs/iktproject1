@@ -1,0 +1,26 @@
+body {
+    background-color: #9CEE59;
+    color: black;
+
+}
+a:active , a:hover , a:visited , a:link {
+    color: #999999;
+}
+#formazas{
+    width: 980px;
+    border: none;
+    background-color: #509050;
+    margin: 0 auto;
+}
+#formazasok {
+    width: 940px;
+    border: none;
+    margin: 0 auto;
+    border-spacing: 1px;
+    background-color: white;
+}
+#sorforma {
+    background-color: black;
+    height: 40px;
+    color: white;
+}
