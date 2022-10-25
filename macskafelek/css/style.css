@@ -1,3 +1,10 @@
+
+body{
+	background-image: url('../img/hatter.jpg');
+	text-align: justify;
+
+}
+
 header{
 	background-image:url('../img/fejlec.jpg');
 	height:260px;
@@ -19,28 +26,51 @@ h1,h2,h3{
 	text-transform:capitalize;
 }
 
+#elsoCim{
+	color:white;
+	text-transform:capitalize;
+	padding-left: 15px;
+	padding-top: 5px;
+	font-weight: bold;
+}
+
 .jobbra{
 	width: 250px;
-	margin-left:20px;
+	margin-left: 20px;
+	float: right;
 }
 
 .info{
-
+	background-color: rgb(255, 242, 207);
+	border: 2px solid black;
+	border-radius: 12px;
 }
 
 .lablec a{
+	color: black;
+	text-decoration-line: none;
+	font-weight: bold;
 	
 }
 
 .lablec a:hover{
+	color: red;
+	text-decoration-line: none;
+	font-weight: bold;
 	
 }
 
 
-#dolt{
-	font-style:italic;
-}
+.dolt{
+	font-style: italic;
+	
+}	
 
 .mancs{
-	margin-top:10px;
+	margin-top: 10px;
+	list-style-image: url('../img/mancs.png');
+}
+
+.felkover{
+	font-weight: bold;
 }
