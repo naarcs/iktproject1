@@ -61,5 +61,46 @@ if (egeszSzam1==245):
 elif (egeszSzam1>245):
     print("Az egeszSzam1 értéke nagyobb mint 245.")
 else:
-    print("Az egeszSzam1 értéke kisebb mint 245.")        
+    print("Az egeszSzam1 értéke kisebb mint 245.")
 
+if (szoveg1==szoveg2):
+    print("Azonos")
+else:
+    print("Nem azonos")
+
+
+#Logikai Opetátorok (and, or , not)
+
+#  or 
+#A B E
+#0 0 0
+#0 1 1
+#1 0 1
+#1 1 1
+
+#  and 
+#A B E
+#0 0 0
+#0 1 0
+#1 0 0
+#1 1 1
+
+#  not 
+#A E
+#0 1
+#1 0
+
+
+egeszSzam2=246
+
+if (egeszSzam1>=245 and egeszSzam2<=246):
+    print("Ok")
+
+if (szoveg1=="Kutya" or egeszSzam1>1000):
+    print("Igaz")
+
+if (logikaiValtozo1):
+    print("Hello")
+
+if (not logikaiValtozo2):
+    print("Nem igaz")       
