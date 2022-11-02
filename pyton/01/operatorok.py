@@ -39,6 +39,15 @@ print(szovegesEredmeny)
 szovegesEredmeny2=szoveg1*5
 print(szovegesEredmeny2)
 
+# Értéknövelő operátorok
+
+darab = 0 
+print(darab)
+darab += 1
+print(darab)
+darab -= 1
+print(darab)
+
 
 #Összehasonlito Operátorok - "<, >, <=, >=, !=, =="
 #Egyszerű egyirányú elágazás
