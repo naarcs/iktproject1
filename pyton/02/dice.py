@@ -1,6 +1,8 @@
 
 import random
 
+print("Nyomj egy tetszőleges billenytyüt az induláshoz!")
+
 jatekos1_pont = 0
 jatekos2_pont = 0
 
