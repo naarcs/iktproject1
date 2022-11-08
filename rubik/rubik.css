@@ -4,10 +4,13 @@ body{
   background-repeat: repeat-y;
   background-position: right top;
   padding: 15px 95px 15px 15px;
+  background-image: url(/hatterkocka.png);
+  color: #443502;
 }
 
 #cimkep{
-  float:left;  
+  float:left;
+  height: 150px;  
 }
 
 h1{
@@ -16,6 +19,7 @@ h1{
 
 p{
   text-align: justify;
+  margin: 5px;
 }
 
 
@@ -27,8 +31,13 @@ p{
   font-size: 70%;
   padding: 7px;
   font-weight: normal;
+  background-color: white;
 }
 
 li{
   font-weight:bold;
+}
+
+.text-right{
+  text-align: right;
 }
