@@ -1,0 +1,29 @@
+import random
+
+def Kiiras(uzenet):
+    print(uzenet)
+
+
+def OsszeHasonlitas(rSzam,bSzam):
+    try:
+        bSzam = int(bSzam)
+        if (bSzam < rSzam):
+            return f"A gép nagyobb számra gondolt: {rSzam}"
+        elif (bSzam > rSzam):
+            return f"A gép kisebb számra gondolt: {rSzam}"
+        else:
+            return f"Eltaláltad a gép által gondolt számot! {rSzam}"
+    except ValueError:
+        return "Nem számot adtál meg!"
+    finally:                                #Mindig lefut
+        print("Csicska")
+
+
+rSzam = random.randrange(1,17)
+bSzam = input("Adj meg egy számot! ")
+
+#Érték Tárolás
+
+Kiiras(OsszeHasonlitas(rSzam,bSzam))
+
+
