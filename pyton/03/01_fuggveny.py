@@ -15,6 +15,13 @@ bSzam = int(input("Adj meg egy számot!"))
 
 print(OsszeHasonlitas(rSzam,bSzam))
 
+#Érték Tárolás
+
+uzenet = OsszeHasonlitas(rSzam,bSzam)
+print(uzenet)
+for betu in uzenet:
+    print(betu,end=" ")
+print()
 
 
 
