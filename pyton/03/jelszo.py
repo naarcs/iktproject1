@@ -3,6 +3,7 @@
 def bejelentkezes(nev, jelszo):
     if (nev == "bori99" and jelszo == "Szivecske<3"):
         return True
+    print("Belépés megtagadva!")
     return False
 
 
