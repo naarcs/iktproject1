@@ -12,7 +12,7 @@ def OsszeHasonlitas(rSzam,bSzam):
             return f"A gép kisebb számra gondolt: {rSzam}"
         else:
             return f"Eltaláltad a gép által gondolt számot! {rSzam}"
-    except:
+    except ValueError:
         return "Nem számot adtál meg!"
     finally:                                #Mindig lefut
         print("Csicska")
