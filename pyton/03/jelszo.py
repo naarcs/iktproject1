@@ -11,6 +11,6 @@ sikeresBelepes = False
 while (not sikeresBelepes):
     nev = input("Adja meg a felhasználó nevét! ")
     jelszo = input("Adja meg a jelszavát! ")
-    sikeresBelepes = bejelentkezes(nev,jelszo)
+    sikeresBelepes = bejelentkezes(nev, jelszo)
 print("Sikeres bejelentkezés")
 
