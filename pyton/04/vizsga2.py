@@ -1,7 +1,20 @@
 import random
 
 def pontSzamGenerator(maxPontSzam):
-    return random.randrange(0, maxPontSzam + 1)
+    szam1 = random.randrange(101)
+    if (szam1 <= 15):
+        return random.randrange(0, 48)
+    if (szam1 <= 30):
+        return random.randrange(48, 67)
+    if (szam1 <= 50):
+        return random.randrange(67, 85)
+    if (szam1 <= 75):
+        return random.randrange(85, 103)
+    return random.randrange(103, maxPontSzam)
+
+    
+
+
 
 
 def ertekeles(pontSzam):
