@@ -42,7 +42,7 @@ for i in range(1,len(jelAdatok)):
         min_Y_index = i
 print(jelAdatok[max_X_index][3], jelAdatok[min_Y_index][4])
 print(jelAdatok[min_X_index][3], jelAdatok[max_Y_index][4])
-print(jelAdatok[max_X_index][0], jelAdatok[max_X_index][1], jelAdatok[max_X_index][2])
+print(jelAdatok[max_X_index][0], ":" ,jelAdatok[max_X_index][1], ":", jelAdatok[max_X_index][2])
 
 
 
