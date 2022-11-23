@@ -13,7 +13,14 @@ class JelAdat:
         return f"Óra: {self.Ora}\nPerc: {self.Perc}\nMásodperc: {self.MasodPerc}\nX: {self.X}\nY: {self.Y}"
 
 elsoJelAdat = JelAdat(3,13,37,234,675)
+
 masodikAdat = JelAdat()
+masodikAdat.Ora = 2
+masodikAdat.Perc = 22
+masodikAdat.MasodPerc = 31
+masodikAdat.X = 123
+masodikAdat.Y = 432
+
 print(elsoJelAdat)
 print(masodikAdat)
 
