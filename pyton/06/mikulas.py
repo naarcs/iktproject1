@@ -32,6 +32,22 @@ class MikulasCsomag:
         self.Tartalom.append(edesseg)
 
 
+class MikulasZsak:
+
+    def __init__(self, Csomagok=[]) -> None:
+        self.Csomagok = Csomagok
+    
+    def __str__(self) -> str:
+        for egyCsomag in self.Csomagok:
+            print(egyCsomag)
+        return ""
+
+    def CsomagAdd(self, csomag):
+        self.Csomagok.append(csomag)
+
+
+
+
 edesseg1 = Edesseg("Boci", "Buborékos", 80, 399, 42, False)
 edesseg2 = Edesseg("Milka", "Epres", 300, 1299, 12, False)
 edesseg3 = Edesseg("Boci", "Étcsoki", 90, 499, 80, True)
@@ -40,11 +56,22 @@ edesseg5 = Edesseg("Snikers", "Mogyorós", 40, 399, 42, False)
 #print(f"{edesseg1}\n{edesseg2}\n{edesseg3}\n{edesseg4}\n{edesseg5}\n")
 
 edessegek = [edesseg1, edesseg2, edesseg3, edesseg4, edesseg5]
-gyerekek = ["Csaba", "Berta", "Zsolt", "Kristof", "Attila", "Bence", "Laci", "Adri", "Tímea", "Istvan", "Anett", "Judit", "Zsombor", "Gabi"]
+gyerekek = ["Csaba", "Berta", "Zsolt", "Kristof", "Attila", "Bence", "Laci", "Adri", "Tímea", "Istvan", "Anett", "Judit", "Zsombor", "Gabi", "Mónika"]
 
-
-egyMikulasCsomag = MikulasCsomag(gyerekek[1])
-#egyMikulasCsomag.Tartalom.append(edesseg3)
+'''
+egyMikulasCsomag = MikulasCsomag(gyerekek[0])
+egyMikulasCsomag.Tartalom.append(edesseg3)
 for i in range(10):
     egyMikulasCsomag.EdessegAdd(edessegek[random.randrange(len(edessegek))])
 print(egyMikulasCsomag)
+'''
+
+mikulasZsak = MikulasZsak()
+#mikulasZsak.CsomagAdd(egyMikulasCsomag)
+for i in range(len(gyerekek)):
+    egyMikulasCsomag = MikulasCsomag(gyerekek[i], Tartalom=[])
+    for j in range(10):
+        egyMikulasCsomag.EdessegAdd(edessegek[random.randrange(len(edessegek))])
+    mikulasZsak.CsomagAdd(egyMikulasCsomag)
+print(mikulasZsak)
+
