@@ -1,0 +1,1 @@
+[<__main__.Book object at 0x00000287FD71BD30>, <__main__.Book object at 0x00000287FD71BD00>]
